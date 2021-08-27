@@ -1,14 +1,17 @@
 //
-$(document).ready(function () {
-  $("select").niceSelect();
-});
-
-//
+let overlay = document.querySelector(".header-overlay");
 let navMenu = document.querySelector(".nav-menu");
 let faBars = document.querySelector("#fa-bars");
 faBars.addEventListener("click", () => {
+  overlay.classList.toggle("active");
   faBars.classList.toggle("fa-times");
   navMenu.classList.toggle("active");
+  document.body.classList.toggle("hidden");
+});
+
+//=========================    =========================
+$(document).ready(function () {
+  $("select").niceSelect();
 });
 
 // ========================= Swiper js  -================================

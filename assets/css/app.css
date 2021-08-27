@@ -46,6 +46,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F9FAFF!important;
+    overflow-y: scroll;
+}
+body.hidden {
+    overflow-y: hidden;
 }
 
 .bg-blue {
@@ -268,7 +272,7 @@ img {
 }
 
 .search-btn {
-    background-color: var(--first_bg_color);
+    /* background-color: var(--first_bg_color); */
     background-image: none;
     border: 0 solid #ffffff;
     border-radius: 0px!important;
@@ -1113,6 +1117,10 @@ footer .foter-contact {
     .slide-text p {
         font-size: 13px;
     }
+    .job-search-main .search-input, .job-search-main .select-dropdown{
+        margin-bottom: 16px;
+    }
+    
     /*  */
     .jobSearchSection .row {
         padding: 29px 8px!important;
@@ -1138,6 +1146,15 @@ footer .foter-contact {
     .job-listings li a {
         flex-direction: column;
         padding: 31px 25px!important;
+    }
+    .job-search-form {
+        margin: 0 1px;
+    }
+    .job-search-form .form-floating {
+        margin-bottom: 7px;
+    }
+    .job-search-form .search-btn {
+        margin-top: 13px;
     }
 }
 
