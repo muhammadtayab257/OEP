@@ -1109,18 +1109,15 @@ footer .foter-contact {
     .nav-main {
         padding: 0px 12px;
     }
-    /*  */
     .slide-text p {
         font-size: 13px;
     }
     .job-search-main .search-input, .job-search-main .select-dropdown {
         margin-bottom: 16px;
     }
-    /*  */
     .jobSearchSection .row {
         padding: 29px 8px!important;
     }
-    /*  */
     .job-listings li a {
         flex-direction: column;
     }
