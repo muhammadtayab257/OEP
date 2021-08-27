@@ -48,6 +48,7 @@ body {
     background-color: #F9FAFF!important;
     overflow-y: scroll;
 }
+
 body.hidden {
     overflow-y: hidden;
 }
@@ -143,10 +144,6 @@ img {
     padding-top: 0px;
 }
 
-.slide-text .btn {
-    border-radius: 0px;
-}
-
 .slide-text h3 {
     font-size: var(--h1_font_size);
     color: #fff;
@@ -167,6 +164,7 @@ img {
     padding: 9px 18px;
     text-transform: uppercase;
     letter-spacing: .5px;
+    border-radius: 0px;
 }
 
 .ng-box {
@@ -1117,10 +1115,9 @@ footer .foter-contact {
     .slide-text p {
         font-size: 13px;
     }
-    .job-search-main .search-input, .job-search-main .select-dropdown{
+    .job-search-main .search-input, .job-search-main .select-dropdown {
         margin-bottom: 16px;
     }
-    
     /*  */
     .jobSearchSection .row {
         padding: 29px 8px!important;
@@ -1161,7 +1158,7 @@ footer .foter-contact {
 @media only screen and (max-width:767px) {
     /* Home Page */
     .job-search-main .row {
-        padding: 19px 7px 25px 7px!important;
+        padding: 19px 7px 25px!important;
     }
     /* Job List Page */
     container.job-search {
