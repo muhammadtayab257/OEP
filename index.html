@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/app.css">
+  <!-- Bootstrap css cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Swiper Js Slider Cdn -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Bootsrtap Icons Cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <!-- Font Awesome Cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- Nice Select Cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css">
+  <title>OEP/PORTAL Design 2</title>
+</head>
+
+<body>
+  <!-- ===============  Main Header   =============== -->
+  <div class="nav-main bg-light py-3  ">
+    <div id="nav-bottom">
+      <div class="nav-logo">
+        <a href="index.html"> <img src="./assets/media/logo.png" alt="logo" width="180"></a>
+      </div>
+      <ul class="nav-menu m-0 ">
+        <li><a href="index.html">Home</a></li>
+        <li class="has-dropdown">
+          <a href="index.html">Jobs</a>
+          <div class="dropdown">
+            <div class="dropdown-body">
+              <ul class="dropdown-list">
+                <li><a href="jobslist.html">All Jobs</a></li>
+                <li><a href="#">Jobs By Category</a></li>
+                <li><a href="#">Jobs By Category</a></li>
+                <li><a href="#">Jobs By Category</a></li>
+                <li><a href="#">Jobs By Category</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">Foreign Jobs </a></li>
+        <li><a href="#">Emigrants</a></li>
+        <li><a href="#">Job Jobs</a></li>
+        <li><a href="#">Local Jobs</a></li>
+        <li><a href="#">Emigrants</a></li>
+      </ul>
+      <button class="btn btn-primary signInBtn">
+        Join Us
+      </button>
+      <i class="fa fa-bars" id="fa-bars"></i>
+    </div>
+  </div>
+  <!-- ==================== Slider Area==================== -->
+  <main>
+    <div class="slider-main">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-7 slide-text">
+            <h3>Search through 56,714 Jobs</h3>
+            <p class="w-75">Create a free user account Explore a thousands of jobs around you Create a free user account
+              Explore a thousands of jobs around you
+            </p>
+            <button class="btn btn-outline-light my-2">Explore Jobs</button>
+          </div>
+          <div class="col-md-5">
+            <div class="ng-box reg-pitch mt-lg-0 mt-4">
+              <div class="reg-main">
+                <p class="headline">Let Employers Find You!</p>
+                <p class="paraline">Get discovered by 9000+ Employers &amp; apply to jobs in a single click</p>
+                <a class="ng-btn blue" href="">Register for
+                  Free</a><span class="hr"></span>
+              </div>
+              <div class="reg-foot">
+                <p>Get notified about jobs matching your criteria</p>
+                <a href="/alerts" class="ng-link to-reg">Create Job
+                  Alert</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==================== Job search Form====================-->
+    <div class="job-search-main">
+      <div class="container">
+        <form method="post">
+          <div class="row align-content-center justify-content-center ml-4 ">
+            <div class="col-lg col-md-6 col-sm-6">
+              <div class="search-input">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search Keywords" class="job-title">
+                <label class="search-lable"> Search keywords e.g. web design </label>
+              </div>
+            </div>
+            <div class="col-lg col-md-6 col-sm-6">
+              <div class="select-dropdown">
+                <select data-display="Select" class="wide">
+                  <option value="1">Country</option>
+                  <option value="2">Pakistan</option>
+                  <option value="2">India</option>
+                  <option value="2">Afghanistan</option>
+                  <option value="2">Russia</option>
+                  <option value="2">Turkey</option>
+                </select>
+                <label class="search-lable">Please select your desired Location</label>
+              </div>
+            </div>
+            <div class="col-lg col-md-6 col-sm-6">
+              <div class="select-dropdown">
+                <select data-display="Select" class="wide">
+                  <option value="2">City</option>
+                  <option value="2">Islamabad</option>
+                  <option value="2">Istanbul</option>
+                  <option value="2">Karachi</option>
+                  <option value="2">Lahore</option>
+                </select>
+                <label class="search-lable">Filter by specialisms e.g. developer, designer</label>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12">
+              <div class="search-btn">
+                <button class="btn btn-primary search-btn">FIND JOB</button>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--==================== BROWSE JOBS BY SPECIALISMS ==================== -->
+    <div class="jobsCategoryList">
+      <div class="text-center">
+        <h5 class="heading-1">BROWSE JOBS BY SPECIALISMS</h5>
+        <p class="pb-3 para-1">32 jobs live - 0 added today.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <ul class="list-group">
+              <li class="list-group-item ">
+                <a href="">
+                  Accountancy
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Digital and Creative
+                </a>
+                <span>(1 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Legal Jobs
+                </a>
+                <span>(4 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Media
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Public Sector
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <ul class="list-group">
+              <li class="list-group-item ">
+                <a href="">
+                  Banking
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Graduate
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Media
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Purchasing
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Media
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <ul class="list-group">
+              <li class="list-group-item ">
+                <a href="">
+                  Charity &amp; Voluntary
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  It Contratory
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Auto and
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Public Sector
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Media
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <ul class="list-group">
+              <li class="list-group-item ">
+                <a href="">
+                  Digital Creative
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Sales and Marketing
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Media
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Legal Jobs
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+              <li class="list-group-item ">
+                <a href="">
+                  Private Sector
+                </a>
+                <span>(2 open positions)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==================== How it works Section ==================== -->
+    <div class="how_its_works">
+      <div class="text-center">
+        <h5 class="heading-1 pt-3">HOW IT WORKS</h5>
+        <p class="pb-3 para-1">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="h-i-w-content-box">
+              <img src="./assets/media/h-i-w-1.png" class="img-responsive" alt="Image">
+              <h4>Register Account</h4>
+              <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place
+                best.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 ">
+            <div class="h-i-w-content-box">
+              <img src="./assets/media/h-i-w-3.png" class="img-responsive" alt="Image">
+              <h4>Search dream Job</h4>
+              <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place
+                best.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 ">
+            <div class="h-i-w-content-box">
+              <img src="./assets/media/h-i-w-4.png" class="img-responsive" alt="Image">
+              <h4>Apply For Job</h4>
+              <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place
+                best.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==================== Latest Jobs Section ==================== -->
+    <div class="latest-jobs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="title">
+              <h5 class="my-4 heading-1">Recent Jobs</h5>
+            </div>
+            <!--  -->
+            <ul class="job-listings p-0">
+              <li class="list">
+                <a href="#">
+                  <div class="listing-logo">
+                    <img src="./assets/media/company-logo-8.png" alt="Image">
+                  </div>
+                  <div class="listing-title">
+                    <h4>Restaurant Dishwasher</h4>
+                    <ul class="listing-icons ">
+                      <li><i class="fas fa-briefcase"></i> King LLC</li>
+                      <li><i class="fas fa-map-marked-alt"></i> Stratford, London, United Kingdom</li>
+                      <li><i class="far fa-money-bill-alt"></i>
+                        $55,000.00 - $70,000.00
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="listing-types">
+                    <span class="job-type full-time">Full Time</span>
+                    <span class="job-type internship">Internship</span>
+                    <span class="job-type temporary">Temporary</span>
+                  </div>
+                </a>
+              </li>
+              <!--  -->
+              <li class="list">
+                <a href="#">
+                  <div class="listing-logo">
+                    <img src="./assets/media/company-logo-4.png" alt="Image">
+                  </div>
+                  <div class="listing-title">
+                    <h4>Social Media and Public Relation Executive</h4>
+                    <ul class="listing-icons ">
+                      <li><i class="fas fa-briefcase"></i> King LLC</li>
+                      <li><i class="fas fa-map-marked-alt"></i> Stratford, London, United Kingdom</li>
+                      <li><i class="far fa-money-bill-alt"></i>
+                        $55,000.00 - $70,000.00
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="listing-types">
+                    <span class="job-type full-time">Full Time</span>
+                  </div>
+                </a>
+              </li>
+              <!--  -->
+              <li class="list">
+                <a href="#">
+                  <div class="listing-logo">
+                    <img src="./assets/media/company-logo-7.png" alt="Image">
+                  </div>
+                  <div class="listing-title">
+                    <h4>Clinical psychologist</h4>
+                    <ul class="listing-icons ">
+                      <li><i class="fas fa-briefcase"></i> King LLC</li>
+                      <li><i class="fas fa-map-marked-alt"></i> Stratford, London, United Kingdom</li>
+                      <li><i class="far fa-money-bill-alt"></i>
+                        $55,000.00 - $70,000.00
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="listing-types">
+                    <span class="job-type freelancer">Freelancer</span>
+                  </div>
+                </a>
+              </li>
+              <!--  -->
+              <li class="list">
+                <a href="#">
+                  <div class="listing-logo">
+                    <img src="./assets/media/company-logo-2.png" alt="Image">
+                  </div>
+                  <div class="listing-title">
+                    <h4>Social Media and Public Relation Executive</h4>
+                    <ul class="listing-icons ">
+                      <li><i class="fas fa-briefcase"></i> King LLC</li>
+                      <li><i class="fas fa-map-marked-alt"></i> Stratford, London, United Kingdom</li>
+                      <li><i class="far fa-money-bill-alt"></i>
+                        $55,000.00 - $70,000.00
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="listing-types">
+                    <span class="job-type full-time">Full Time</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <div class="title">
+              <h5 class="my-4 heading-1">Job Spotlight</h5>
+            </div>
+            <div class="swiper-container mySwiper overflow-hidden">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="job-title">
+                    <h5>Clinical psychologist <span class="job-type part-time">Part Time</span> </h5>
+                  </div>
+                  <div class="job-desc">
+                    <p class="company-name"><i class="fa fa-briefcase"></i> Rose Clinic</p>
+                    <p class="job-location"><i class="fa fa-map-marker"></i> Manchester Road, Sheffield, United
+                      Kingdom
+                    </p>
+                    <p class="rate">
+                      <i class="far fa-money-bill-alt"></i>
+                      $15- $25 / hour
+                    </p>
+                    <p class="salary">
+                      <i class="far fa-money-bill-alt"></i>
+                      $40000 - $50000
+                    </p>
+                    <p class="description pb-4">The successful individual will be working within a small treatment
+                      service
+                      with
+                      patients that have
+                      either Learning Disabilities and/or mental
+                    </p>
+                    <button class="btn btn-primary apply-btn">Apply For this job</button>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="swiper-slide">
+                  <div class="job-title">
+                    <h5>Clinical psychologist <span class="job-type part-time">Part Time</span> </h5>
+                  </div>
+                  <div class="job-desc">
+                    <p class="company-name"><i class="fa fa-briefcase"></i> Rose Clinic</p>
+                    <p class="job-location"><i class="fa fa-map-marker"></i> Manchester Road, Sheffield, United
+                      Kingdom
+                    </p>
+                    <p class="rate">
+                      <i class="far fa-money-bill-alt"></i>
+                      $15- $25 / hour
+                    </p>
+                    <p class="salary">
+                      <i class="far fa-money-bill-alt"></i>
+                      $40000 - $50000
+                    </p>
+                    <p class="description pb-4">The successful individual will be working within a small treatment
+                      service
+                      with
+                      patients that have
+                      either Learning Disabilities and/or mental
+                    </p>
+                    <button class="btn btn-primary apply-btn">Apply For this job</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== OUR SERVICES====================-->
+    <div id="services" class="py-5">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="heading-1 text-uppercase pt-3">How Can we help?</h2>
+          <p class="pb-3 para-1">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+            <div class="services-caption  text-center mb-30">
+              <div class="service-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="service-cap">
+                <h4>Saves your time</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora blanditiis neque dicta porro quas
+                  harum omnis earum
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+            <div class="services-caption active  text-center mb-30">
+              <div class="service-icon">
+                <i class="fas fa-search-plus"></i>
+              </div>
+              <div class="service-cap">
+                <h4>All over the world</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora blanditiis neque dicta porro quas
+                  harum omnis earum
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+            <div class="services-caption text-center mb-30">
+              <div class="service-icon ">
+                <i class="fas fa-user-shield"></i>
+              </div>
+              <div class="service-cap">
+                <h4>Quick Jobs</h4>
+                <p>Life has become so hard that people don’t have time for their personal life. Use Our
+                  platform for Quick booking to save time.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+            <div class="services-caption  text-center mb-30">
+              <div class="service-icon">
+                <i class="far fa-clock"></i>
+              </div>
+              <div class="service-cap">
+                <h4>Saves your time</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora blanditiis neque dicta porro quas
+                  harum omnis earum
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+            <div class="services-caption active  text-center mb-30">
+              <div class="service-icon">
+                <i class="fas fa-user-check"></i>
+              </div>
+              <div class="service-cap">
+                <h4>All over the world</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora blanditiis neque dicta porro quas
+                  harum omnis earum
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+            <div class="services-caption text-center mb-30">
+              <div class="service-icon ">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <div class="service-cap">
+                <h4>Quick Jobs</h4>
+                <p>Life has become so hard that people don’t have time for their personal life. Use Our
+                  platform for Quick booking to save time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==================== Top Hiring Companies ====================-->
+    <div class="top-hiring ">
+      <div class="text-center">
+        <h1 class="heading-1  pt-2">TOP PARTNERS HIRING NOW</h1>
+        <p class="pb-3 para-1">leading companies using Jobsco</p>
+      </div>
+      <div class="container">
+        <div class="swiper-container hiringCompaniesSwiper pb-4 overflow-hidden">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="hiring-logo">
+                <img src="./assets/media/t-h-c-1.png" alt="Image">
+              </div>
+            </div>
+            <!--  -->
+            <div class="swiper-slide">
+              <div class="hiring-logo">
+                <img src="./assets/media/t-h-c-2.png" alt="Image">
+              </div>
+            </div>
+            <!--  -->
+            <div class="swiper-slide">
+              <div class="hiring-logo">
+                <img src="./assets/media/t-h-c-3.png" alt="Image">
+              </div>
+            </div>
+            <!--  -->
+            <div class="swiper-slide">
+              <div class="hiring-logo">
+                <img src="./assets/media/t-h-c-4.png" alt="Image">
+              </div>
+            </div>
+            <!--  -->
+            <div class="swiper-slide">
+              <div class="hiring-logo">
+                <img src="./assets/media/t-h-c-5.png" alt="Image">
+              </div>
+            </div>
+            <!--  -->
+            <div class="swiper-slide">
+              <div class="hiring-logo">
+                <img src="./assets/media/t-c-h-6.svg" alt="Image">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!--==================== FAQS ====================  -->
+    <div class="faqs">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2 class="heading-1">Frequently Asked Questions (Faqs)</h2>
+          <p class="pb-3 para-1">Most Common Faqs</p>
+        </div>
+        <!-- Faqs -->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                How I purchase Premium Subscription
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Will You Sell My Data
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+                filled with some actual content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Will You send Me Useless Emails after subscription?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                happening here in terms of content, but just filling up the space to make it look, at least at first
+                glance, a bit more representative of how this would look in a real-world application.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!--==================== FOOTER ====================  -->
+  <footer class="mt-4">
+    <div class="container">
+      <div class="footer-grid">
+        <!--  -->
+        <ul class="footer-links">
+          <li class="mb-1">
+            <h5 class="foter-heading">
+              Jobs by
+            </h5>
+          </li>
+          <li><a href="">Walk In Interview Jobs In Dubai</a></li>
+          <li><a href="">Part Time Jobs In Dubai</a></li>
+          <li><a href="">Accountant Jobs In Dubai</a></li>
+          <li><a href="">Accountant Jobs In Dubai</a></li>
+          <li><a href="">Driver Jobs In Uae</a></li>
+        </ul>
+        <!--  -->
+        <ul class="footer-links">
+          <li class="mb-1">
+            <h5 class="foter-heading">Location</h5>
+          </li>
+          <li><a href="">Jobs In Gulf</a></li>
+          <li><a href="">Jobs In Uae</a></li>
+          <li><a href="">Jobs In Hajaz Muqadas</a></li>
+          <li><a href="">Jobs In Karachi</a></li>
+          <li><a href="">Jobs In Lahore</a></li>
+          <li><a href="">Jobs In London</a></li>
+          <li><a href="">Jobs In Paris</a></li>
+        </ul>
+        <!--  -->
+        <ul class="footer-links">
+          <li class="mb-1">
+            <h5 class="foter-heading">Nationality</h5>
+          </li>
+          <li><a href="">Jobs for Pakistanis</a></li>
+          <li><a href="">Jobs for Iranis</a></li>
+          <li><a href="">Jobs for Indians</a></li>
+          <li><a href="">Jobs for Afghanis</a></li>
+          <li><a href="">Jobs for Arabs</a></li>
+          <li><a href="">Jobs for Americans</a></li>
+          <li><a href="">Jobs for French</a></li>
+        </ul>
+        <!--  -->
+        <ul class="footer-links">
+          <li class="mb-1">
+            <h5 class="foter-heading">Job Seekers</h5>
+          </li>
+          <li><a href="">Post Your CV</a></li>
+          <li><a href="">Login</a></li>
+          <li><a href="">Carrer Tips</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Mobile App</a></li>
+        </ul>
+        <ul class="footer-links">
+          <h5 class="foter-heading">Download Our App</h5>
+          <li class="mb-3">
+            <img src="./assets/media/google-play.png" width="120" alt="Image">
+          </li>
+          <li class="mb-3">
+            <img src="./assets/media/ios-play.png" width="120" alt="Image">
+          </li>
+          <ul class="d-flex gap-3 ml-0 p-0">
+            <li>
+              <a href=""><img src="./assets/media/facebook-circular-logo.svg" width="35" alt="Image"></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/media/twitter-social-logotype.svg" width="35" alt="Image"></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/media/instagram-logo.svg" width="35" alt="Image"></a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+      <!-- footer bottom -->
+      <ul class="bottom-menu">
+        <li>
+          <a href="#">Privacy</a>
+        </li>
+        <li>
+          <a href="#">California Privacy Notice</a>
+        </li>
+        <li>
+          <a href="#">Do Not Sell My Personal Information</a>
+        </li>
+        <li>
+          <a href="#">Modern Slavery Act</a>
+        </li>
+        <li>
+          <a href="#">Acceptable Use</a>
+        </li>
+        <li>
+          <a href="#">Acceptable Use International</a>
+        </li>
+        <li>
+          <a href="#">Data Processing</a>
+        </li>
+      </ul>
+      <!-- footer copyright -->
+    </div>
+    <div class="copyright py-1">
+      <div class="copyright-text px-3">
+        <h5>
+          Copyright © 2021 Jobsco, Inc. All rights reserved. Various
+          trademarks held by their respective owners.
+        </h5>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

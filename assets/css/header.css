@@ -1,0 +1,162 @@
+/*----------------------------*\Headermenu For Large Devices\*----------------------------*/
+
+@media only screen and (min-width: 1079px) {
+    .nav-menu {
+        position: relative;
+        text-align: center;
+        display: flex;
+        transition: 0.6s ease-in-out;
+    }
+    .navFixed {
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+        box-shadow: 0 8px 34px 2px rgb(91 91 91 / 15%);
+    }
+    #nav-bottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-menu>li>a {
+        text-transform: uppercase;
+        padding: 14px 15px;
+        margin: 0px 4px 0px 0px;
+        font-size: 14px;
+        color: rgb(117, 117, 117);
+        font-weight: 600;
+        font-family: Montserrat, sans-serif;
+        transition: .3s ease-in-out;
+        border-radius: 5px;
+    }
+    .nav-menu>li>a:hover {
+        background-color: #316FD3;
+        color: #fff;
+    }
+    /*----------------------------*\dropdown \*----------------------------*/
+    .nav-menu li.has-dropdown {
+        position: relative;
+    }
+    .nav-menu li.has-dropdown>a:after {
+        content: "";
+        display: block;
+        background: url(../media/dropdown-icon.svg) no-repeat;
+        width: 10px;
+        height: 6px;
+        position: absolute;
+        top: 10px;
+        right: 3px;
+    }
+    .nav-menu li.has-dropdown>a:hover:after {
+        display: none;
+    }
+    .nav-menu li.has-dropdown>.dropdown {
+        position: absolute;
+        left: 0;
+        top: 53px;
+        width: 200px;
+        text-align: left;
+        z-index: 60;
+        -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        transform: translateY(10px);
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+    }
+    .nav-menu li.has-dropdown:hover>.dropdown {
+        -webkit-transform: translateY(-7px);
+        -ms-transform: translateY(-7px);
+        transform: translateY(-7px);
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav-menu li.has-dropdown>.dropdown .dropdown-body {
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        border-top: 2px solid #1e1aff;
+    }
+    .dropdown-list {
+        padding-left: 0px;
+    }
+    .dropdown-list li {
+        border-bottom: 1px solid #e8eaed;
+    }
+    .dropdown-list li a {
+        display: block;
+        padding: 10px;
+        line-height: 20px;
+        color: rgb(117, 117, 117);
+    }
+    .dropdown-heading {
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+    button.signInBtn {
+        padding: 8px 21px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .fa-bars {
+        display: none!important;
+    }
+}
+
+/* ---------------------------- Header Menu For small devices\*----------------------------*/
+
+@media only screen and (max-width: 1079px) {
+    #nav-bottom {
+        display: flex;
+        flex-direction: revert;
+        justify-content: space-between;
+    }
+    .nav-menu {
+        background: #fff;
+        position: absolute;
+        width: 100%;
+        top: 76px;
+        max-height: 0px;
+        z-index: 9999;
+        padding: 10px 20px 18px 20px;
+        box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
+        transition: .5s;
+        overflow: hidden;
+        display: none;
+    }
+    .nav-menu li a {
+        padding: 8px 10px;
+    }
+    .nav-menu.active {
+        max-height: 400px;
+        display: block;
+    }
+    .nav-menu li {
+        padding: 10px 0px;
+    }
+    .nav-menu li a {
+        font-size: 18px;
+        color: #000;
+    }
+    .dropdown {
+        display: none;
+    }
+    button.signInBtn {
+        display: none;
+    }
+    .fa-bars {
+        background-color: blue;
+        font-size: 25px;
+        color: #fff;
+        margin-left: 37px;
+        margin-right: 11px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
