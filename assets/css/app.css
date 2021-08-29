@@ -141,7 +141,7 @@ img {
 }
 
 .slide-text {
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 .slide-text h3 {
@@ -164,7 +164,7 @@ img {
     padding: 9px 18px;
     text-transform: uppercase;
     letter-spacing: .5px;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 .ng-box {
@@ -225,8 +225,8 @@ img {
 .job-search-main {
     margin-top: -55px;
     position: relative;
-    border-top: 0px #e0e0e0 solid;
-    border-bottom: 0px #e0e0e0 solid;
+    border-top: 0 #e0e0e0 solid;
+    border-bottom: 0 #e0e0e0 solid;
     width: 100%;
     z-index: 9;
 }
@@ -265,7 +265,7 @@ img {
     font-size: 11px;
     font-weight: 600;
     margin: 0;
-    padding: 7px 0 0 0;
+    padding: 7px 0 0;
     text-align: left;
 }
 
@@ -273,7 +273,7 @@ img {
     /* background-color: var(--first_bg_color); */
     background-image: none;
     border: 0 solid #ffffff;
-    border-radius: 0px!important;
+    border-radius: 0!important;
     color: #fff;
     font-size: 16px !important;
     font-weight: 400;
@@ -283,7 +283,7 @@ img {
 }
 
 .nice-select.wide {
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 /* ============================== 
@@ -291,10 +291,10 @@ img {
 =================================== */
 
 .jobsCategoryList {
-    margin-top: 0px;
-    padding: 60px 0px;
-    border-top: 0px #e0e0e0 solid;
-    border-bottom: 0px #e0e0e0 solid;
+    margin-top: 0;
+    padding: 60px 0;
+    border-top: 0 #e0e0e0 solid;
+    border-bottom: 0 #e0e0e0 solid;
 }
 
 .jobsCategoryList .para-1 {
@@ -350,7 +350,7 @@ img {
 
 .how_its_work {
     background: #F9FAFF;
-    padding: 35px 0px;
+    padding: 35px 0;
 }
 
 .how_its_work .heading-1 {
@@ -367,13 +367,13 @@ img {
 }
 
 .h-i-w-content-box:hover {
-    box-shadow: rgb(0 0 0 / 12%) 0px 2px 12px 0px;
+    box-shadow: rgb(0 0 0 / 12%) 0 2px 12px 0;
     cursor: pointer;
 }
 
 .h-i-w-content-box h4 {
     font-size: 17px;
-    padding: 12px 0px 2px 0px;
+    padding: 12px 0 2px;
 }
 
 .h-i-w-content-box p {
@@ -389,7 +389,7 @@ img {
  ================================= */
 
 .latest-jobs {
-    padding: 35px 0px;
+    padding: 35px 0;
 }
 
 .job-listings .listing-logo {
@@ -397,7 +397,7 @@ img {
     min-width: 60px;
     flex-wrap: wrap;
     float: none;
-    margin: 0px;
+    margin: 0;
 }
 
 .listing-logo img {
@@ -502,7 +502,7 @@ img {
     background: #fff;
     margin-right: 30px;
     border: 1px solid #e3e3e3;
-    padding: 24px 23px 32px 23px;
+    padding: 24px 23px 32px;
 }
 
 .job-title span {
@@ -534,7 +534,7 @@ img {
 }
 
 .latest-jobs .apply-btn {
-    border-radius: 0px;
+    border-radius: 0;
     padding: 8px 14px;
     letter-spacing: .5px;
 }
@@ -588,7 +588,7 @@ OUR SERVICES
 }
 
 .services-caption:hover {
-    box-shadow: rgb(0 0 0 / 12%) 0px 2px 12px 0px;
+    box-shadow: rgb(0 0 0 / 12%) 0 2px 12px 0;
 }
 
 /* ===============================
@@ -596,7 +596,7 @@ OUR SERVICES
 ================================= */
 
 .top-hiring {
-    padding: 50px 0px 40px 0px;
+    padding: 50px 0 40px;
 }
 
 .hiring-logo {
@@ -618,7 +618,7 @@ OUR SERVICES
 ================================= */
 
 .faqs {
-    padding: 35px 0px;
+    padding: 35px 0;
 }
 
 .faqs .heading-1 {
@@ -664,9 +664,9 @@ OUR SERVICES
 
 .form-floating input {
     height: 44px;
-    border: 0px;
+    border: 0;
     border-bottom: 2px solid var(--first_bg_color);
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 .job-search-form .fa, .job-search-form .fas {
@@ -677,7 +677,7 @@ OUR SERVICES
 }
 
 .job-search-form .nice-select {
-    border: 0px;
+    border: 0;
     border-bottom: 2px solid var(--first_bg_color);
     padding: 1rem .75rem;
     font-size: 16px;
@@ -695,7 +695,7 @@ OUR SERVICES
     background-color: var(--first_bg_color);
     background-image: none;
     border: 0 solid #ffffff;
-    border-radius: 0px!important;
+    border-radius: 0!important;
     color: #fff;
     font-size: 16px !important;
     font-weight: 400;
@@ -716,13 +716,13 @@ OUR SERVICES
 
 .refine-search .accordion-item {
     background-color: #fff;
-    border: 0px solid rgba(0, 0, 0, .125);
-    padding: 5px 0px;
+    border: 0 solid rgba(0, 0, 0, .125);
+    padding: 5px 0;
     border-radius: 8px;
 }
 
 .allJobs .container {
-    padding: 0px 26px!important;
+    padding: 0 26px!important;
 }
 
 .allJobs .job-listings .list {
@@ -733,7 +733,7 @@ OUR SERVICES
 .allJobs .job-listings .list a {
     border: none;
     display: block;
-    padding: 31px 21px 19px 0px;
+    padding: 31px 21px 19px 0;
 }
 
 .allJobs .job-listings .list p {
@@ -764,7 +764,7 @@ OUR SERVICES
 }
 
 .details-main {
-    padding: 65px 0px;
+    padding: 65px 0;
 }
 
 .detailsText {
@@ -972,7 +972,7 @@ OUR SERVICES
 
 .job-crawler ol {
     margin-top: revert;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 .job-crawler li {
@@ -1033,7 +1033,7 @@ Footer
 
 footer {
     background-color: var(--first_bg_color);
-    padding: 80px 0px 12px;
+    padding: 80px 0 12px;
 }
 
 .footer-grid {
@@ -1107,7 +1107,7 @@ footer .foter-contact {
 
 @media only screen and (max-width:991px) {
     .nav-main {
-        padding: 0px 12px;
+        padding: 0 12px;
     }
     .slide-text p {
         font-size: 13px;
@@ -1127,13 +1127,13 @@ footer .foter-contact {
     }
     .listing-types {
         text-align: left;
-        padding: 10px 0px;
+        padding: 10px 0;
     }
     .listing-title h4 {
-        margin-left: 0px;
+        margin-left: 0;
     }
     .job-listings {
-        padding-left: 0px;
+        padding-left: 0;
     }
     .job-listings li a {
         flex-direction: column;
@@ -1163,7 +1163,7 @@ footer .foter-contact {
         padding: 19px 22px 25px 17px!important;
     }
     .job-listings {
-        padding-left: 0px;
+        padding-left: 0;
     }
     .job-listings li a {
         flex-direction: column;
