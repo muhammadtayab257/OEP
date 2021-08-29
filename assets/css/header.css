@@ -150,19 +150,19 @@
         position: absolute;
         top: 20px;
         left: 24px;
-    
     }
     .header-overlay.active {
         display: block;
     }
     .nav-menu li {
+        transition: .5s cubic-bezier(0.22, 0.61, 0.36, 1);
         padding: 10px 0px;
         margin: 15px 0px;
         cursor: pointer;
+        border-radius: 5px;
     }
     .nav-menu li.active, .nav-menu li:hover {
         background: rgba(17, 17, 255, 0.205);
-        color: #fff!important;
     }
     .nav-menu li a {
         padding: 8px 10px;
