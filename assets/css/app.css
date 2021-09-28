@@ -137,7 +137,8 @@ img {
     background: linear-gradient(90deg, #306fd3 0, #2f6fd3 60%, #5d8fd9);
     /* background: url(/assets/media/search-bg.jpg) no-repeat; */
     background-size: cover;
-    padding: 70px 14px;
+    padding: 65px 14px 107px 14px;
+    
 }
 
 .slide-text {
@@ -161,61 +162,10 @@ img {
 }
 
 .slide-text .btn {
-    padding: 9px 18px;
+    padding: 13px 30px;
     text-transform: uppercase;
     letter-spacing: .5px;
     border-radius: 0;
-}
-
-.ng-box {
-    border-radius: 8px;
-    background-color: #fff;
-    overflow: hidden;
-}
-
-.reg-pitch .reg-main {
-    padding: 24px 20px 16px;
-    position: relative;
-}
-
-.headline {
-    font-size: 19px;
-    font-weight: 600;
-    line-height: 18px;
-    color: #424242;
-    letter-spacing: 0.4px;
-}
-
-.paraline {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 22px;
-    color: #3b6585;
-    letter-spacing: -.3px;
-    margin-top: 8px;
-}
-
-.ng-btn {
-    display: block;
-    padding: 11px 32px;
-    margin-top: 20px;
-}
-
-.ng-btn.blue {
-    background-color: var(--first_bg_color);
-    box-shadow: 0 2px 4px 0 #0161fc46;
-    color: #fff;
-    border-radius: 30px;
-}
-
-.reg-pitch .reg-foot {
-    background-color: #e7f0ff;
-    padding: 14px 20px 16px;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18px;
-    color: #032946;
-    letter-spacing: -.3px;
 }
 
 /* ==============================
@@ -223,7 +173,7 @@ img {
  ============================== */
 
 .job-search-main {
-    margin-top: -55px;
+    margin-top: -65px;
     position: relative;
     border-top: 0 #e0e0e0 solid;
     border-bottom: 0 #e0e0e0 solid;
@@ -431,15 +381,15 @@ img {
 }
 
 .job-listings li a {
+    background: #fff;
     display: flex;
     padding: 31px 25px;
     transition: 0.3s;
     overflow: hidden;
-    border: 1px solid #e0e0e0;
+    /* border: 1px solid #e0e0e0; */
     margin-top: -1px;
     width: 100%;
     height: 100%;
-    background: #fff;
 }
 
 .listing-types {
@@ -501,7 +451,7 @@ img {
 .latest-jobs .swiper-container .swiper-slide {
     background: #fff;
     margin-right: 30px;
-    border: 1px solid #e3e3e3;
+    /* border: 1px solid #e3e3e3; */
     padding: 24px 23px 32px;
 }
 
@@ -967,7 +917,7 @@ OUR SERVICES
     background-color: #fff;
     padding: 9px 32px;
     min-height: 72px;
-    transform: translateY(-93px);
+    transform: translateY(-71px);
 }
 
 .job-crawler ol {

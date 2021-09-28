@@ -9,12 +9,23 @@ faBars.addEventListener("click", () => {
   document.body.classList.toggle("hidden");
 });
 
-//=========================    =========================
+//? fixed body onscroll
+let headerTop = document.querySelector(".nav-main")
+onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    headerTop.classList.add('fixed');
+  } else {
+    headerTop.classList.remove('fixed');
+  }
+}
+//? Nice Select
 $(document).ready(function () {
   $("select").niceSelect();
 });
 
-// ========================= Swiper js  -================================
+//? Swiper js 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 30,
@@ -24,7 +35,7 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
 });
-// =============================== Top Hiring Companies Logo Slider =========================
+//? Top Hiring Companies Logo Slider 
 var swiper = new Swiper(".hiringCompaniesSwiper", {
   slidesPerView: 1,
   spaceBetween: 10,

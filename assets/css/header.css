@@ -1,3 +1,17 @@
+.nav-main {
+    background: linear-gradient(90deg, #306fd3 0, #2f6fd3 60%, #5d8fd9);
+    transition: 0.5s;
+}
+
+.nav-main.fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: linear-gradient(90deg, #306fd3 0, #2f6fd3 60%, #5d8fd9);
+    backdrop-filter: blur(20px);
+}
+
 /*----------------------------*\Headermenu For Large Devices\*----------------------------*/
 
 @media only screen and (min-width: 1079px) {
@@ -24,14 +38,14 @@
         padding: 14px 15px;
         margin: 0px 4px 0px 0px;
         font-size: 14px;
-        color: rgb(117, 117, 117);
+        color: #fff;
         font-weight: 600;
         font-family: Montserrat, sans-serif;
-        transition: .3s ease-in-out;
+        transition: 0.3s ease-in-out;
         border-radius: 5px;
     }
     .nav-menu>li>a:hover {
-        background-color: #316FD3;
+        background-color: #316fd3;
         color: #fff;
     }
     /*----------------------------*\dropdown \*----------------------------*/
@@ -105,7 +119,7 @@
         font-weight: 500;
     }
     .fa-bars {
-        display: none!important;
+        display: none !important;
     }
 }
 
@@ -155,7 +169,7 @@
         display: block;
     }
     .nav-menu li {
-        transition: .5s cubic-bezier(0.22, 0.61, 0.36, 1);
+        transition: 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
         padding: 10px 0px;
         margin: 15px 0px;
         cursor: pointer;
@@ -177,11 +191,10 @@
     .dropdown {
         display: none;
     }
-    button.signInBtn {
+    a.signInBtn {
         display: none;
     }
     .fa-bars {
-        background-color: blue;
         font-size: 25px;
         color: #fff;
         margin-left: 37px;
