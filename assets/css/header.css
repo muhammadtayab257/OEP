@@ -4,12 +4,13 @@
 }
 
 .nav-main.fixed {
-    position: fixed;
+    /* position: fixed;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 10;
     background: linear-gradient(90deg, #306fd3 0, #2f6fd3 60%, #5d8fd9);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px); */
 }
 
 /*----------------------------*\Headermenu For Large Devices\*----------------------------*/
@@ -44,10 +45,7 @@
         transition: 0.3s ease-in-out;
         border-radius: 5px;
     }
-    .nav-menu>li>a:hover {
-        background-color: #316fd3;
-        color: #fff;
-    }
+   
     /*----------------------------*\dropdown \*----------------------------*/
     .nav-menu li.has-dropdown {
         position: relative;

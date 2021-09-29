@@ -14,7 +14,7 @@ let headerTop = document.querySelector(".nav-main")
 onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     headerTop.classList.add('fixed');
   } else {
     headerTop.classList.remove('fixed');

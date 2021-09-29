@@ -1,85 +1,54 @@
+.sign-up {
+    margin-bottom: 32px;
+}
 
+.social-logins a {
+    padding: 12px;
+    border: 2px solid #bebebe;
+    text-align: center;
+    border-radius: 43px;
+    margin: 15px 0;
+    color: #000;
+    font-weight: 500;
+}
 
-.indicators * {
-    transition: all 0.4s ease-in-out;
-   }
-   
-   .fix-height {
-    min-height: 200px;
-   }
-   
-   .steps {
+.social-logins a.google:hover {
+    color: #000
+}
+
+.social-logins a.facebook {
+    border: .125rem solid #1877f2;
+    color: #1877f2;
+}
+
+.social-logins a img {
     position: absolute;
-    width: 0;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.4s ease-in-out;
-   }
-   
-   .steps.active {
+    left: 16px;
+    top: 16px;
+    width: 20px;
+    height: 20px;
+}
+
+.social-logins a.facebook img {
+    top: 83px;
+}
+
+label {
+    font-size: 14px;
+    letter-spacing: .5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input.form-control {
+    padding: 10px;
+    border-radius: 0;
+    margin-bottom: 22px;
+}
+
+button.createAccount {
     width: 100%;
-    z-index: 1;
-    visibility: visible;
-    opacity: 1;
-    transition: all 0.4s ease-in-out;
-   }
-   
-   /* animation for input boxes */
-   
-   .form-control.invalid {
-    border: 1px solid #ec2626;
-    /* paste any animation you want */
-    animation: shaking 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
-    transition: all 0.4s ease-in-out;
-   }
-   
-   @keyframes shaking {
-    10%,
-    90% {
-     transform: translate3d(-2px, 0, 0);
-    }
-    20%,
-    80% {
-     transform: translate3d(4px, 0, 0);
-    }
-    30%,
-    50%,
-    70% {
-     transform: translate3d(-8px, 0, 0);
-    }
-    40%,
-    60% {
-     transform: translate3d(8px, 0, 0);
-    }
-   }
-   
-   .hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: all 0.4s ease-in-out;
-   }
-   
-   .show {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-    transition: all 0.4s ease-in-out;
-   }
-   
-   @media screen and (min-width: 768px) {
-    .fix-height {
-     min-height: 100px;
-    }
-   }
-   
-   .bg-primary{
-       background: blue !important;
-   }
+    padding: 11px;
+    border-radius: 0px;
+    margin-top: 8px;
+}
