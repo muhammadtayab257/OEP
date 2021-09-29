@@ -650,14 +650,15 @@ img {
     box-shadow: 0 2px 4px 0 #abcdde;
     color: #fff;
 }
-
+ 
 .actionButtons a.button {
-    padding: 12px 22px;
+    padding: 12px 22px; 
     border-radius: 20px;
     margin-right: 10px;
     color: #fff;
     font-size: 13px;
     font-weight: 500;
+    margin: 10px 5px 10px 0;
 }
 
 .actionButtons a.loginbtn {
