@@ -46,7 +46,7 @@ var swiper = new Swiper(".hiringCompaniesSwiper", {
 
   breakpoints: {
     140: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
     440: {
