@@ -1,6 +1,5 @@
 .nav-main {
     background: linear-gradient(90deg, #306fd3 0, #2f6fd3 60%, #5d8fd9);
-    transition: 0.5s;
 }
 
 .nav-main.fixed {
@@ -20,7 +19,6 @@
         position: relative;
         text-align: center;
         display: flex;
-        transition: 0.6s ease-in-out;
     }
     .navFixed {
         position: fixed;
@@ -42,7 +40,6 @@
         color: #fff;
         font-weight: 600;
         font-family: Montserrat, sans-serif;
-        transition: 0.3s ease-in-out;
         border-radius: 5px;
     }
    
@@ -150,7 +147,7 @@
         z-index: 9999;
         padding: 80px 10px 18px 10px;
         box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
-        transition: 0.5s;
+        transition: left 0.5s;
     }
     .nav-menu:before {
         content: "";
@@ -167,7 +164,6 @@
         display: block;
     }
     .nav-menu li {
-        transition: 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
         padding: 10px 0px;
         margin: 15px 0px;
         cursor: pointer;

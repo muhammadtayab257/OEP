@@ -32,7 +32,9 @@
 
 /* Global Settings */
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -68,16 +70,22 @@ button:focus {
   box-shadow: 0 0 0 0 !important;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
   padding: 0;
   list-style-type: none;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none !important;
 }
 
@@ -202,8 +210,6 @@ img {
   text-decoration: none;
 }
 
-
-
 .jobsCategoryList .list-group li span {
   color: #999 !important;
   display: block;
@@ -297,7 +303,8 @@ img {
   margin-top: 2px;
 }
 
-.job-listings .list {}
+.job-listings .list {
+}
 
 .job-listings .list:hover {
   background-color: #fafafa;
@@ -419,54 +426,6 @@ img {
   letter-spacing: 0.5px;
 }
 
-/* ========================
-OUR SERVICES
-=========================`
-*/
-
-.services-caption .service-icon {
-  display: inline-block;
-  position: relative;
-}
-
-.service-icon span, .service-icon i {
-  position: relative;
-  color: var(--first_bg_color);
-  font-size: 59px;
-  height: 95px;
-  width: 95px;
-  display: block;
-  line-height: 101px;
-  border-radius: 50%;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-.services-caption {
-  background: #fff;
-  padding: 26px 10px 36px;
-  border: 1px solid transparent;
-  border-radius: 7px;
-  margin-bottom: 14px;
-}
-
-.service-cap p {
-  font-size: 14px;
-  line-height: 25px;
-  letter-spacing: 0.6px;
-  font-weight: 400;
-  color: #808080;
-}
-
-.service-cap h4 {
-  font-size: 20px;
-  color: #333;
-}
-
-.services-caption:hover {
-  box-shadow: rgb(0 0 0 / 12%) 0 2px 12px 0;
-}
-
 /* ===============================
   Top Hiring Companies Logo slider
 ================================= */
@@ -486,27 +445,6 @@ OUR SERVICES
 .top-hiring .swiper-pagination {
   position: relative;
   top: 2px;
-}
-
-/* ===============================
-  FAQS
-================================= */
-
-.faqs {
-  padding: 35px 0;
-}
-
-.faqs .heading-1 {
-  text-transform: uppercase;
-}
-
-.faqs .accordion-item {
-  margin-bottom: 18px;
-  border: 0;
-}
-
-.faqs .accordion-collapse {
-  background: #fff;
 }
 
 /*  =============================== Jobs List Page ================================= */
@@ -544,7 +482,8 @@ OUR SERVICES
   border-radius: 0;
 }
 
-.job-search-form .fa, .job-search-form .fas {
+.job-search-form .fa,
+.job-search-form .fas {
   position: absolute;
   right: 12px;
   top: 27px;
@@ -907,7 +846,8 @@ footer .foter-contact {
   .slide-text p {
     font-size: 13px;
   }
-  .job-search-main .search-input, .job-search-main .select-dropdown {
+  .job-search-main .search-input,
+  .job-search-main .select-dropdown {
     margin-bottom: 16px;
   }
   .jobSearchSection .row {
