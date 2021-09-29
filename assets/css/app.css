@@ -465,7 +465,7 @@ img {
 
 .job-search-form {
     transform: translateY(-34px);
-    padding: 20px 30px 25px 28px !important;
+    padding: 20px 30px 7px 28px !important;
     margin: 0 15px;
     background-color: #fff;
     border-radius: 4px;
@@ -500,6 +500,10 @@ img {
 .nice-select:after {
     border-bottom: 2px solid var(--first_bg_color) !important;
     border-right: 2px solid var(--first_bg_color) !important;
+}
+
+.job-search-form .search-btn {
+    margin-top: 13px;
 }
 
 .searchJobBtn {
@@ -588,6 +592,7 @@ img {
 
 .jobDesc .Jobaddress {
     font-size: 14px;
+    color: gray;
     font-family: var(--body_font);
     letter-spacing: 0.5px;
 }
@@ -606,13 +611,13 @@ img {
     font-family: var(--body_font);
 }
 
-.job-description .para-1 {
+.job-description .para-1, .benefits .para-1 {
     font-size: 14px;
-    line-height: 28px;
-    letter-spacing: 0.5px;
+    font-family: Montserrat, sans-serif;
+    line-height: 27px;
+    letter-spacing: .6px;
     font-weight: 400;
-    color: rgb(33, 37, 41);
-    font-family: var(--body_font);
+    color: grey!important;
 }
 
 .job-description .heading {
