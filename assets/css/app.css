@@ -397,12 +397,12 @@ img {
     margin: 2px 0 2px 4px;
 }
 
-.swiper-container .job-desc p{
+.swiper-container .job-desc p {
     display: inline-block;
     margin-right: 13px;
     color: grey;
-
 }
+
 .swiper-container .job-desc p.description {
     font-size: 14px;
     font-family: Montserrat, sans-serif;
@@ -548,8 +548,12 @@ img {
 }
 
 .allJobs .job-listings .list p {
-    font-size: 13px;
-    letter-spacing: 0.4px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    line-height: 27px;
+    letter-spacing: .6px;
+    font-weight: 400;
+    color: grey;
 }
 
 .allJobs .job-listings .listing-logo {
@@ -869,7 +873,7 @@ footer .foter-contact {
     }
     .job-listings li a {
         flex-direction: column;
-        padding: 31px 25px !important;
+        padding: 31px 23px!important;
     }
     .job-search-form {
         margin: 0 1px;
