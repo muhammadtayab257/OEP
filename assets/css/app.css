@@ -930,9 +930,9 @@ footer .foter-contact {
         letter-spacing: .8px;
         font-weight: 500;
     }
-    .details-title h3, .slide-text h3 {
-        font-size: 31px;
-        line-height: 45px;
+    .heading-text h1, .details-title h3, .slide-text h3 {
+        font-size: 25px;
+        line-height: 42px;
     }
     .job-search-form .search-btn {
         margin-top: 28px;
