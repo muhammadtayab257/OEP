@@ -1,510 +1,513 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/app.min.css" />
     <!-- Bootstrap css cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  
-    <!-- Font Awesome Cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <title>Jobs List</title>
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-<body>
+    <!-- Font Awesome Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      />
+      <link rel="icon" type="image/png" href="./assets/media/favicon.ico" />
+    <title>Jobs List</title>
+  </head>
+
+  <body>
     <!-- ===============  Main Header   =============== -->
     <div class="header-overlay"></div>
-    <div class="nav-main  py-3">
-        <div id="nav-bottom">
-          <div class="nav-logo">
-            <a href="index.html" >
-              <img src="./assets/media/logo2.webp" alt="logo" width="180" /></a>
-          </div>
-          <ul class="nav-menu m-0">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li class="has-dropdown">
-              <a href="index.html">Jobs</a>
-              <div class="dropdown">
-                <div class="dropdown-body">
-                  <ul class="dropdown-list">
-                    <li><a href="jobslist.html">Jobs List</a></li>
-                    <li><a href="jobDetals.html">Single Job Detail</a></li>
-                    <li><a href="#">Jobs By Skill</a></li>
-                    <li><a href="#">Jobs By Country</a></li>
-                    <li><a href="#">Jobs By Category</a></li>
-                    <li><a href="#">Contact Us </a></li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-            <li><a href="#">Foreign Jobs </a></li>
-            <li><a href="#">Emigrants</a></li>
-            <li><a href="#">Job Jobs</a></li>
-            <li><a href="#">Local Jobs</a></li>
-            <li><a href="#">Emigrants</a></li>
-          </ul>
-          <a class="btn btn-outline-light signInBtn px-4" href="./Signup.html">Join Us</a>
-          <i class="fa fa-bars" id="fa-bars"></i>
+    <div class="nav-main py-3">
+      <div id="nav-bottom">
+        <div class="nav-logo">
+          <a href="index.html">
+            <img src="./assets/media/logo2.webp" alt="logo" width="180"
+          /></a>
         </div>
+        <ul class="nav-menu m-0">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="has-dropdown">
+            <a href="index.html">Jobs</a>
+            <div class="dropdown">
+              <div class="dropdown-body">
+                <ul class="dropdown-list">
+                  <li><a href="jobslist.html">Jobs List</a></li>
+                  <li><a href="jobDetals.html">Single Job Detail</a></li>
+                  <li><a href="#">Jobs By Skill</a></li>
+                  <li><a href="#">Jobs By Country</a></li>
+                  <li><a href="#">Jobs By Category</a></li>
+                  <li><a href="#">Contact Us </a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Foreign Jobs </a></li>
+          <li><a href="#">Emigrants</a></li>
+          <li><a href="#">Job Jobs</a></li>
+          <li><a href="#">Local Jobs</a></li>
+          <li><a href="#">Emigrants</a></li>
+        </ul>
+        <a class="btn btn-outline-light signInBtn px-4" href="./Signup.html"
+          >Join Us</a
+        >
+        <i class="fa fa-bars" id="fa-bars"></i>
       </div>
+    </div>
 
     <main>
-        <div class="details-title">
-            <div class="container py-4">
-                <div class="d-flex justify-content-start align-items-center ">
-                    <div class="col-lg-7">
-                        <h3 class="line-height-3 jobTitle pt-3 pb-4">Senior UX/UI Designer at CircleBox Creative</h3>
-                    </div>
-                </div>
+      <div class="details-title">
+        <div class="container py-4">
+          <div class="d-flex justify-content-start align-items-center">
+            <div class="col-lg-7">
+              <h3 class="line-height-3 jobTitle pt-3 pb-4">
+                Senior UX/UI Designer at CircleBox Creative
+              </h3>
             </div>
+          </div>
         </div>
-        <div class="details-main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="detailsText bg-white px-4 pb-4 pt-5">
-                            <div class="detailsHeaderText d-flex gap-3 align-items-center">
-                                <div class="companyLogo">
-                                    <img src="./assets/media/company-logo-4.png" width="80" alt="">
-                                </div>
-                                <div class="jobDesc">
-                                    <h5>Senior UX/UI Designer</h5>
-                                    <p class="Jobaddress m-0">CircleBox Creative Technology L.L.C</p>
-                                    <p class="jobSalary m-0">$ 76543</p>
-                                </div>
-                            </div>
-                            <div class="actionButtons d-flex flex-wrap py-2 ">
-                                <a href="#" class="button loginbtn">Login To Apply</a>
-                                <a href="#" class="button registerbtn">Register To Apply</a>
-                                <a href="#" class="button applybtn">Apply Without Registration</a>
-                            </div>
-                            <article class="job-description py-2 pt-4 ">
-                                <section>
-                                    <h4 class="heading">Job Description</h4>
-                                    <p class="para-1">Post a job to tell us about your project. We'll quickly match you
-                                        with
-                                        the
-                                        right
-                                        freelancers find place best.Post a job to tell us about your project. We'll
-                                        quickly
-                                        match
-                                        you with the
-                                        right freelancers find place best.Post a job to tell us about your project.
-                                        We'll
-                                        quickly
-                                        match you
-                                        with the right freelancers
-                                        <br>
-                                        Unfortunately, due to a technical glitch (we forgot to enable the Video on
-                                        Demand
-                                        option),
-                                        we do not
-                                        have a recording of the first stream to share. We fixed the issue and all future
-                                        streams
-                                        will have a
-                                        video recap as well as an accompanying blog post for those that want to follow
-                                        along, but
-                                        don’t have
-                                        time to watch.
-                                        <br>
-                                        Greetings from San Francisco… Toronto… wait, am I in Las Vegas this week? If you
-                                        work in
-                                        developer
-                                        relations, or if you just speak at a lot of events, you know how easy it can be
-                                        to
-                                        lose
-                                        track of where
-                                        and when you are. You probably also know how time-consuming it can be to keep
-                                        track
-                                        of new
-                                        and
-                                        existing CFPs and how much work it is to fill up your speaking schedule.
-                                        <br>
-                                        Angular comes with a number of baked-in features which are tremendously helpful
-                                        for
-                                        handling
-                                        authentication. I think my favorite is probably its HttpInterceptor interface,
-                                        but
-                                        right
-                                        next to it
-                                        would be route guards. Let’s take a look at what Angular’s route guards are and
-                                        how
-                                        to use
-                                        them to
-                                        help with authentication in your Angular apps.
-                                        <br>
-                                        Greetings from San Francisco… Toronto… wait, am I in Las Vegas this week? If you
-                                        work in
-                                        developer
-                                        relations, or if you just speak at a lot of events, you know how easy it can be
-                                        to
-                                        lose
-                                        track of where
-                                        and when you are. You probably also know how time-consuming it can be to keep
-                                        track
-                                        of new
-                                        and
-                                        existing CFPs and how much work it is to fill up your speaking schedule.
-                                        <br>
-                                        Post a job to tell us about your project. We'll quickly match you with the right
-                                        freelancers
-                                        find
-                                        place best.Post a job to tell us about your project. We'll quickly match you
-                                        with
-                                        the right
-                                        freelancers find place best.Post a job to tell us about your project. We'll
-                                        quickly
-                                        match
-                                        you with the
-                                        right freelancers
-                                    </p>
-                                    <div class="benefits">
-                                        <h4 class="heading">Challenges & Benifits</h4>
-                                        <p class="para-1">Eros quis interdum tellus facilisis metus sed, cubilia
-                                            porttitor
-                                            sit
-                                            velit, ut
-                                            elementum dolor
-                                            adipiscing aliquam amet lacinia, quam ut, amet dolor risus tincidunt ante.
-                                            Felis
-                                            magna
-                                            euismod quis
-                                            lectus ut, ullamcorper porttitor parturient id. Vestibulum vitae luctus
-                                            eget,
-                                            non
-                                            blandit sed
-                                            accumsan
-                                            urna est, diam lobortis</p>
-                                    </div>
-
-                                    <div class="tags">
-                                        <h4 class="heading">Desired Candidate Profile</h4>
-                                        <p class="para-1">AUTO ELECTRICIAN</p>
-                                        <h4 class="heading">Company Industry</h4>
-                                        <p class="para-1 d-flex flex-wrap">
-                                            <a href="#">Advertising /</a>
-                                            <a href="#">Event Management /</a>
-                                            <a href="#">PR</a>
-                                        </p>
-                                        <h4 class="heading">Department / Functional Area/</h4>
-                                        <p class="para-1 d-flex flex-wrap">
-                                            <a href="#">Digital Marketing/</a>
-                                            <a href="#">Marketing/</a>
-                                            <a href="#">Brand Management/</a>
-                                            <a href="#">Marketing Research</a>
-                                        </p>
-                                        <h4 class="heading">Keywords</h4>
-                                        <div class="tagsButtons d-flex flex-wrap my-3 ">
-                                            <a href="#" class="button">Figma</a>
-                                            <a href="#" class="button">Python</a>
-                                            <a href="#" class="button">Go</a>
-                                            <a href="#" class="button">Web Design</a>
-                                            <a href="#" class="button">Mern Stack</a>
-                                        </div>
-                                    </div>
-
-                                </section>
-                            </article>
-                        </div>
-                        <div class="reportJOb py-3">
-                            <a href="#">Report this Job</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="companyDetails">
-                            <div class="jobOverview">
-                                <h5>Job Overview</h5>
-                                <div class="singleOverview">
-                                    <div class="icon">
-                                        <i class="fa fa-calendar"></i>
-                                    </div>
-                                    <div class="metaOverview">
-                                        <p class="m-0">Date Posted:</p>
-                                        <span>03 april 2018</span>
-                                    </div>
-                                </div>
-                                <div class="singleOverview">
-                                    <div class="icon">
-                                        <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="metaOverview">
-                                        <p class="m-0">Expiration date: </p>
-                                        <span>01 december 2018</span>
-                                    </div>
-                                </div>
-                                <div class="singleOverview">
-                                    <div class="icon">
-                                        <i class="fa fa-map-marker"></i>
-                                    </div>
-                                    <div class="metaOverview">
-                                        <p class="m-0">Location</p>
-                                        <span>South Angelina,Canada</span>
-                                    </div>
-                                </div>
-                                <div class="singleOverview">
-                                    <div class="icon"><i class="fa fa-clock"></i></div>
-                                    <div class="metaOverview">
-                                        <p class="m-0">Job title</p>
-                                        <span>front - end Developer</span>
-                                    </div>
-                                </div>
-                                <div class="singleOverview">
-                                    <div class="icon">
-                                        <i class="fa fa-user"></i>
-                                    </div>
-                                    <div class="metaOverview">
-                                        <p class="m-0">Salary:</p>
-                                        <span>$40000-$60000</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="jobOverview">
-                                <h5>Contact info</h5>
-                                <div class="singleOverview">
-                                    <div class="icon">
-                                        <i class="fa fa-calendar"></i>
-                                    </div>
-                                    <div class="metaOverview">
-                                        <p class="m-0">Email</p>
-                                        <span>company@gmail.com</span>
-                                    </div>
-                                </div>
-                                <div class="singleOverview">
-                                    <div class="icon">
-                                        <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="metaOverview">
-                                        <p class="m-0">Phone:</p>
-                                        <span>+44 56789876</span>
-                                    </div>
-                                </div>
-                                <div class="singleOverview">
-                                    <div class="icon">
-                                        <i class="fa fa-map-marker"></i>
-                                    </div>
-                                    <div class="metaOverview">
-                                        <p class="m-0">Location</p>
-                                        <span>South Angelina,Canada</span>
-                                    </div>
-                                </div>
-                                <div class="singleOverview">
-                                    <div class="icon"><i class="fa fa-clock"></i></div>
-                                    <div class="metaOverview">
-                                        <p class="m-0">Job title</p>
-                                        <span>front - end Developer</span>
-                                    </div>
-                                </div>
-                                <div class="singleOverview">
-                                    <div class="icon">
-                                        <i class="fa fa-user"></i>
-                                    </div>
-                                    <div class="metaOverview">
-                                        <p class="m-0">Office time:</p>
-                                        <span>sat - mon 09:00am - 05:00pm</span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- Similar Jobs -->
-                        <div class="similarJobs bg-white p-4">
-                            <div class="d-flex justify-content-between">
-                                <h5>Similar Jobs</h5>
-                                <a href="">View All</a>
-                            </div>
-                            <div class="jobCard pt-3">
-                                <ul class="p-0">
-                                    <li>
-                                        <a>SR. WEB DEVELOPER AED 15K</a>
-                                        <span> MAC GROUP</span>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-briefcase"></i>
-                                        2 - 6 Years
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-map-marked-alt"></i>
-                                        Dubai - United Arab Emirates
-                                    </li>
-                                </ul>
-
-                                <div class="">
-                                    <img src="./assets/media/company-logo-5.png" class="img-responsive float-end"
-                                        height="48" width="65">
-                                </div>
-
-                            </div>
-                            <div class="jobCard pt-3">
-                                <ul class="p-0">
-                                    <li>
-                                        <a>Web Developer</a>
-                                        <span> MBC Management Consultancies</span>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-briefcase"></i>
-                                        2 - 6 Years
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-map-marked-alt"></i>
-                                        Dubai - United Arab Emirates
-                                    </li>
-                                </ul>
-
-                                <div class="">
-                                    <img src="./assets/media/company-logo-9.png" class="img-responsive float-end"
-                                        height="48" width="65">
-                                </div>
-
-                            </div>
-                            <div class="jobCard pt-3">
-                                <ul class="p-0">
-                                    <li>
-                                        <a>Full Stack Developer</a>
-                                        <span> TP Connects Technologies LLC</span>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-briefcase"></i>
-                                        2 - 6 Years
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-map-marked-alt"></i>
-                                        Dubai - United Arab Emirates
-                                    </li>
-                                </ul>
-
-                                <div class="">
-                                    <img src="./assets/media/company-logo-6.png" class="img-responsive float-end"
-                                        height="48" width="65">
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+      </div>
+      <div class="details-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="detailsText bg-white px-4 pb-4 pt-5">
+                <div class="detailsHeaderText d-flex gap-3 align-items-center">
+                  <div class="companyLogo">
+                    <img
+                      src="./assets/media/company-logo-4.png"
+                      width="80"
+                      alt=""
+                    />
+                  </div>
+                  <div class="jobDesc">
+                    <h5>Senior UX/UI Designer</h5>
+                    <p class="Jobaddress m-0">
+                      CircleBox Creative Technology L.L.C
+                    </p>
+                    <p class="jobSalary m-0">$ 76543</p>
+                  </div>
                 </div>
+                <div class="actionButtons d-flex flex-wrap py-2">
+                  <a href="#" class="button loginbtn">Login To Apply</a>
+                  <a href="#" class="button registerbtn">Register To Apply</a>
+                  <a href="#" class="button applybtn"
+                    >Apply Without Registration</a
+                  >
+                </div>
+                <article class="job-description py-2 pt-4">
+                  <section>
+                    <h4 class="heading">Job Description</h4>
+                    <p class="para-1">
+                      Post a job to tell us about your project. We'll quickly
+                      match you with the right freelancers find place best.Post
+                      a job to tell us about your project. We'll quickly match
+                      you with the right freelancers find place best.Post a job
+                      to tell us about your project. We'll quickly match you
+                      with the right freelancers
+                      <br />
+                      Unfortunately, due to a technical glitch (we forgot to
+                      enable the Video on Demand option), we do not have a
+                      recording of the first stream to share. We fixed the issue
+                      and all future streams will have a video recap as well as
+                      an accompanying blog post for those that want to follow
+                      along, but don’t have time to watch.
+                      <br />
+                      Greetings from San Francisco… Toronto… wait, am I in Las
+                      Vegas this week? If you work in developer relations, or if
+                      you just speak at a lot of events, you know how easy it
+                      can be to lose track of where and when you are. You
+                      probably also know how time-consuming it can be to keep
+                      track of new and existing CFPs and how much work it is to
+                      fill up your speaking schedule.
+                      <br />
+                      Angular comes with a number of baked-in features which are
+                      tremendously helpful for handling authentication. I think
+                      my favorite is probably its HttpInterceptor interface, but
+                      right next to it would be route guards. Let’s take a look
+                      at what Angular’s route guards are and how to use them to
+                      help with authentication in your Angular apps.
+                      <br />
+                      Greetings from San Francisco… Toronto… wait, am I in Las
+                      Vegas this week? If you work in developer relations, or if
+                      you just speak at a lot of events, you know how easy it
+                      can be to lose track of where and when you are. You
+                      probably also know how time-consuming it can be to keep
+                      track of new and existing CFPs and how much work it is to
+                      fill up your speaking schedule.
+                      <br />
+                      Post a job to tell us about your project. We'll quickly
+                      match you with the right freelancers find place best.Post
+                      a job to tell us about your project. We'll quickly match
+                      you with the right freelancers find place best.Post a job
+                      to tell us about your project. We'll quickly match you
+                      with the right freelancers
+                    </p>
+                    <div class="benefits">
+                      <h4 class="heading">Challenges & Benifits</h4>
+                      <p class="para-1">
+                        Eros quis interdum tellus facilisis metus sed, cubilia
+                        porttitor sit velit, ut elementum dolor adipiscing
+                        aliquam amet lacinia, quam ut, amet dolor risus
+                        tincidunt ante. Felis magna euismod quis lectus ut,
+                        ullamcorper porttitor parturient id. Vestibulum vitae
+                        luctus eget, non blandit sed accumsan urna est, diam
+                        lobortis
+                      </p>
+                    </div>
+
+                    <div class="tags">
+                      <h4 class="heading">Desired Candidate Profile</h4>
+                      <p class="para-1">AUTO ELECTRICIAN</p>
+                      <h4 class="heading">Company Industry</h4>
+                      <p class="para-1 d-flex flex-wrap">
+                        <a href="#">Advertising /</a>
+                        <a href="#">Event Management /</a>
+                        <a href="#">PR</a>
+                      </p>
+                      <h4 class="heading">Department / Functional Area/</h4>
+                      <p class="para-1 d-flex flex-wrap">
+                        <a href="#">Digital Marketing/</a>
+                        <a href="#">Marketing/</a>
+                        <a href="#">Brand Management/</a>
+                        <a href="#">Marketing Research</a>
+                      </p>
+                      <h4 class="heading">Keywords</h4>
+                      <div class="tagsButtons d-flex flex-wrap my-3">
+                        <a href="#" class="button">Figma</a>
+                        <a href="#" class="button">Python</a>
+                        <a href="#" class="button">Go</a>
+                        <a href="#" class="button">Web Design</a>
+                        <a href="#" class="button">Mern Stack</a>
+                      </div>
+                    </div>
+                  </section>
+                </article>
+              </div>
+              <div class="reportJOb py-3">
+                <a href="#">Report this Job</a>
+              </div>
             </div>
+            <div class="col-md-4">
+              <div class="companyDetails">
+                <div class="jobOverview">
+                  <h5>Job Overview</h5>
+                  <div class="singleOverview">
+                    <div class="icon">
+                      <i class="fa fa-calendar"></i>
+                    </div>
+                    <div class="metaOverview">
+                      <p class="m-0">Date Posted:</p>
+                      <span>03 april 2018</span>
+                    </div>
+                  </div>
+                  <div class="singleOverview">
+                    <div class="icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="metaOverview">
+                      <p class="m-0">Expiration date:</p>
+                      <span>01 december 2018</span>
+                    </div>
+                  </div>
+                  <div class="singleOverview">
+                    <div class="icon">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="metaOverview">
+                      <p class="m-0">Location</p>
+                      <span>South Angelina,Canada</span>
+                    </div>
+                  </div>
+                  <div class="singleOverview">
+                    <div class="icon"><i class="fa fa-clock"></i></div>
+                    <div class="metaOverview">
+                      <p class="m-0">Job title</p>
+                      <span>front - end Developer</span>
+                    </div>
+                  </div>
+                  <div class="singleOverview">
+                    <div class="icon">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="metaOverview">
+                      <p class="m-0">Salary:</p>
+                      <span>$40000-$60000</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="jobOverview">
+                  <h5>Contact info</h5>
+                  <div class="singleOverview">
+                    <div class="icon">
+                      <i class="fa fa-calendar"></i>
+                    </div>
+                    <div class="metaOverview">
+                      <p class="m-0">Email</p>
+                      <span>company@gmail.com</span>
+                    </div>
+                  </div>
+                  <div class="singleOverview">
+                    <div class="icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="metaOverview">
+                      <p class="m-0">Phone:</p>
+                      <span>+44 56789876</span>
+                    </div>
+                  </div>
+                  <div class="singleOverview">
+                    <div class="icon">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="metaOverview">
+                      <p class="m-0">Location</p>
+                      <span>South Angelina,Canada</span>
+                    </div>
+                  </div>
+                  <div class="singleOverview">
+                    <div class="icon"><i class="fa fa-clock"></i></div>
+                    <div class="metaOverview">
+                      <p class="m-0">Job title</p>
+                      <span>front - end Developer</span>
+                    </div>
+                  </div>
+                  <div class="singleOverview">
+                    <div class="icon">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="metaOverview">
+                      <p class="m-0">Office time:</p>
+                      <span>sat - mon 09:00am - 05:00pm</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Similar Jobs -->
+              <div class="similarJobs bg-white p-4">
+                <div class="d-flex justify-content-between">
+                  <h5>Similar Jobs</h5>
+                  <a href="">View All</a>
+                </div>
+                <div class="jobCard pt-3">
+                  <ul class="p-0">
+                    <li>
+                      <a>SR. WEB DEVELOPER AED 15K</a>
+                      <span> MAC GROUP</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-briefcase"></i>
+                      2 - 6 Years
+                    </li>
+                    <li>
+                      <i class="fas fa-map-marked-alt"></i>
+                      Dubai - United Arab Emirates
+                    </li>
+                  </ul>
+
+                  <div class="">
+                    <img
+                      src="./assets/media/company-logo-5.png"
+                      class="img-responsive float-end"
+                      height="48"
+                      width="65"
+                    />
+                  </div>
+                </div>
+                <div class="jobCard pt-3">
+                  <ul class="p-0">
+                    <li>
+                      <a>Web Developer</a>
+                      <span> MBC Management Consultancies</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-briefcase"></i>
+                      2 - 6 Years
+                    </li>
+                    <li>
+                      <i class="fas fa-map-marked-alt"></i>
+                      Dubai - United Arab Emirates
+                    </li>
+                  </ul>
+
+                  <div class="">
+                    <img
+                      src="./assets/media/company-logo-9.png"
+                      class="img-responsive float-end"
+                      height="48"
+                      width="65"
+                    />
+                  </div>
+                </div>
+                <div class="jobCard pt-3">
+                  <ul class="p-0">
+                    <li>
+                      <a>Full Stack Developer</a>
+                      <span> TP Connects Technologies LLC</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-briefcase"></i>
+                      2 - 6 Years
+                    </li>
+                    <li>
+                      <i class="fas fa-map-marked-alt"></i>
+                      Dubai - United Arab Emirates
+                    </li>
+                  </ul>
+
+                  <div class="">
+                    <img
+                      src="./assets/media/company-logo-6.png"
+                      class="img-responsive float-end"
+                      height="48"
+                      width="65"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
 
     <!--==================== FOOTER ====================  -->
     <footer class="mt-4">
-        <div class="container">
-            <div class="footer-grid">
-                <!--  -->
-                <ul class="footer-links">
-                    <li class="mb-1">
-                        <h5 class="foter-heading">
-                            Jobs by
-                        </h5>
-                    </li>
-                    <li><a href="">Walk In Interview Jobs In Dubai</a></li>
-                    <li><a href="">Part Time Jobs In Dubai</a></li>
-                    <li><a href="">Accountant Jobs In Dubai</a></li>
-                    <li><a href="">Accountant Jobs In Dubai</a></li>
-                    <li><a href="">Driver Jobs In Uae</a></li>
-                </ul>
-                <!--  -->
-                <ul class="footer-links">
-                    <li class="mb-1">
-                        <h5 class="foter-heading">Location</h5>
-                    </li>
-                    <li><a href="">Jobs In Gulf</a></li>
-                    <li><a href="">Jobs In Uae</a></li>
-                    <li><a href="">Jobs In Hajaz Muqadas</a></li>
-                    <li><a href="">Jobs In Karachi</a></li>
-                    <li><a href="">Jobs In Lahore</a></li>
-                    <li><a href="">Jobs In London</a></li>
-                    <li><a href="">Jobs In Paris</a></li>
-                </ul>
-                <!--  -->
-                <ul class="footer-links">
-                    <li class="mb-1">
-                        <h5 class="foter-heading">Nationality</h5>
-                    </li>
-                    <li><a href="">Jobs for Pakistanis</a></li>
-                    <li><a href="">Jobs for Iranis</a></li>
-                    <li><a href="">Jobs for Indians</a></li>
-                    <li><a href="">Jobs for Afghanis</a></li>
-                    <li><a href="">Jobs for Arabs</a></li>
-                    <li><a href="">Jobs for Americans</a></li>
-                    <li><a href="">Jobs for French</a></li>
-                </ul>
-                <!--  -->
-                <ul class="footer-links">
-                    <li class="mb-1">
-                        <h5 class="foter-heading">Job Seekers</h5>
-                    </li>
-                    <li><a href="">Post Your CV</a></li>
-                    <li><a href="">Login</a></li>
-                    <li><a href="">Carrer Tips</a></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Mobile App</a></li>
-                </ul>
-                <ul class="footer-links">
-                    <h5 class="foter-heading">Download Our App</h5>
-                    <li class="mb-3">
-                        <img src="./assets/media/google-play.png" width="120" alt="Image">
-                    </li>
-                    <li class="mb-3">
-                        <img src="./assets/media/ios-play.png" width="120" alt="Image">
-                    </li>
-                    <ul class="d-flex gap-3 ml-0 p-0">
-                        <li>
-                            <a href=""><img src="./assets/media/facebook-circular-logo.svg" width="35" alt="Image"></a>
-                        </li>
-                        <li>
-                            <a href=""><img src="./assets/media/twitter-social-logotype.svg" width="35" alt="Image"></a>
-                        </li>
-                        <li>
-                            <a href=""><img src="./assets/media/instagram-logo.svg" width="35" alt="Image"></a>
-                        </li>
-                    </ul>
-                </ul>
-            </div>
-            <!-- footer bottom -->
-            <ul class="bottom-menu">
-                <li>
-                    <a href="#">Privacy</a>
-                </li>
-                <li>
-                    <a href="#">California Privacy Notice</a>
-                </li>
-                <li>
-                    <a href="#">Do Not Sell My Personal Information</a>
-                </li>
-                <li>
-                    <a href="#">Modern Slavery Act</a>
-                </li>
-                <li>
-                    <a href="#">Acceptable Use</a>
-                </li>
-                <li>
-                    <a href="#">Acceptable Use International</a>
-                </li>
-                <li>
-                    <a href="#">Data Processing</a>
-                </li>
+      <div class="container">
+        <div class="footer-grid">
+          <!--  -->
+          <ul class="footer-links">
+            <li class="mb-1">
+              <h5 class="foter-heading">Jobs by</h5>
+            </li>
+            <li><a href="">Walk In Interview Jobs In Dubai</a></li>
+            <li><a href="">Part Time Jobs In Dubai</a></li>
+            <li><a href="">Accountant Jobs In Dubai</a></li>
+            <li><a href="">Accountant Jobs In Dubai</a></li>
+            <li><a href="">Driver Jobs In Uae</a></li>
+          </ul>
+          <!--  -->
+          <ul class="footer-links">
+            <li class="mb-1">
+              <h5 class="foter-heading">Location</h5>
+            </li>
+            <li><a href="">Jobs In Gulf</a></li>
+            <li><a href="">Jobs In Uae</a></li>
+            <li><a href="">Jobs In Hajaz Muqadas</a></li>
+            <li><a href="">Jobs In Karachi</a></li>
+            <li><a href="">Jobs In Lahore</a></li>
+            <li><a href="">Jobs In London</a></li>
+            <li><a href="">Jobs In Paris</a></li>
+          </ul>
+          <!--  -->
+          <ul class="footer-links">
+            <li class="mb-1">
+              <h5 class="foter-heading">Nationality</h5>
+            </li>
+            <li><a href="">Jobs for Pakistanis</a></li>
+            <li><a href="">Jobs for Iranis</a></li>
+            <li><a href="">Jobs for Indians</a></li>
+            <li><a href="">Jobs for Afghanis</a></li>
+            <li><a href="">Jobs for Arabs</a></li>
+            <li><a href="">Jobs for Americans</a></li>
+            <li><a href="">Jobs for French</a></li>
+          </ul>
+          <!--  -->
+          <ul class="footer-links">
+            <li class="mb-1">
+              <h5 class="foter-heading">Job Seekers</h5>
+            </li>
+            <li><a href="">Post Your CV</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Carrer Tips</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Mobile App</a></li>
+          </ul>
+          <ul class="footer-links">
+            <h5 class="foter-heading">Download Our App</h5>
+            <li class="mb-3">
+              <img
+                src="./assets/media/google-play.png"
+                width="120"
+                alt="Image"
+              />
+            </li>
+            <li class="mb-3">
+              <img src="./assets/media/ios-play.png" width="120" alt="Image" />
+            </li>
+            <ul class="d-flex gap-3 ml-0 p-0">
+              <li>
+                <a href=""
+                  ><img
+                    src="./assets/media/facebook-circular-logo.svg"
+                    width="35"
+                    alt="Image"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./assets/media/twitter-social-logotype.svg"
+                    width="35"
+                    alt="Image"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./assets/media/instagram-logo.svg"
+                    width="35"
+                    alt="Image"
+                /></a>
+              </li>
             </ul>
-            <!-- footer copyright -->
+          </ul>
         </div>
-        <div class="copyright py-1">
-            <div class="copyright-text px-3">
-                <h5>
-                    Copyright © 2021 Jobsco, Inc. All rights reserved. Various
-                    trademarks held by their respective owners.
-                </h5>
-            </div>
+        <!-- footer bottom -->
+        <ul class="bottom-menu">
+          <li>
+            <a href="#">Privacy</a>
+          </li>
+          <li>
+            <a href="#">California Privacy Notice</a>
+          </li>
+          <li>
+            <a href="#">Do Not Sell My Personal Information</a>
+          </li>
+          <li>
+            <a href="#">Modern Slavery Act</a>
+          </li>
+          <li>
+            <a href="#">Acceptable Use</a>
+          </li>
+          <li>
+            <a href="#">Acceptable Use International</a>
+          </li>
+          <li>
+            <a href="#">Data Processing</a>
+          </li>
+        </ul>
+        <!-- footer copyright -->
+      </div>
+      <div class="copyright py-1">
+        <div class="copyright-text px-3">
+          <h5>
+            Copyright © 2021 Jobsco, Inc. All rights reserved. Various
+            trademarks held by their respective owners.
+          </h5>
         </div>
+      </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
     <script src="assets/js/app.js"></script>
-</body>
-
+  </body>
 </html>
